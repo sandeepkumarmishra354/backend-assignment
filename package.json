@@ -1,0 +1,37 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "As part of our application process, we'd like to see what you can produce by giving you a small assignment. It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "tsc",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepkumarmishra354/backend-assignment.git"
+  },
+  "keywords": [],
+  "author": {
+    "email": "sandeepkumarmishra354@gmail.com",
+    "name": "sandeep mishra"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepkumarmishra354/backend-assignment/issues"
+  },
+  "homepage": "https://github.com/sandeepkumarmishra354/backend-assignment#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "typeorm": "^0.2.34",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/yup": "^0.29.11"
+  }
+}
