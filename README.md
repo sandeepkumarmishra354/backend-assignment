@@ -2,16 +2,21 @@
 
 create a .env file (or set environment variables) at root level with following contents:-
 
-``
+```
 PORT=8080
 EMAIL=test@email.com
 EMAIL_PASSWORD=123456
-``
+```
 
 ## How to run
 
-``npm install``
-``npm start``
+```
+npm install
+```
+
+```
+npm start
+```
 
 
 # TaxAdda Backend Assignment
