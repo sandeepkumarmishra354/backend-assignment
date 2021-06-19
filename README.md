@@ -8,6 +8,10 @@ EMAIL=test@email.com
 EMAIL_PASSWORD=123456
 ```
 
+## How to configure database
+
+change contents of ``ormconfig.json`` file according to your setup.
+
 ## How to run
 
 ```
