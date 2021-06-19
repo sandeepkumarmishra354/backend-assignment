@@ -6,7 +6,7 @@ export class Database {
     
     public init = async () => {
         this._connection = await createConnection();
-        await this._connection.dropDatabase();
+        //await this._connection.dropDatabase();
         await this._connection.synchronize(true);
     }
 }
