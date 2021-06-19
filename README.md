@@ -6,6 +6,8 @@ create a .env file (or set environment variables) at root level with following c
 PORT=8080
 EMAIL=test@email.com
 EMAIL_PASSWORD=123456
+EMAIL_HOST=smtp.ethereal.email
+EMAIL_PORT=587
 ```
 
 ## How to configure database
